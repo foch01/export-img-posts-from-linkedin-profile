@@ -8,6 +8,6 @@ This script scrapes images from posts of linkedin activities from a profile.
 
 2. Go to this url : https://www.linkedin.com/in/[NAME_OF_PROFILE]recent-activity/shares/
 
-3. Execute this script
+3. Execute this script.
 
-4. Paste in excel file for example
+4. Paste in excel file for example.
