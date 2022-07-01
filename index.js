@@ -1,13 +1,13 @@
 javascript: (() => {
-const imageURLs = []
+const imageURLs = [];
 const divs = document.querySelectorAll('[id^="ember"].occludable-update');
 
 divs.forEach((div) => {
-  const element = div.querySelector('.feed-shared-image img')
+  const element = div.querySelector('.feed-shared-image img');
   if(element?.src !== null && element?.src !== undefined) {
-    imageURLs.push(element.src)
+    imageURLs.push(element.src);
   }
-})
+});
 
 const textBreakLines = imageURLs.join("\n");
 
@@ -20,5 +20,5 @@ function copyToClipboard(text) {
     document.body.removeChild(dummy);   
 };
 
-copyToClipboard(textBreakLines)
+copyToClipboard(textBreakLines);
 })();
